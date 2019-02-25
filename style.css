@@ -1,0 +1,16 @@
+body{
+    background-image: url("Bootstrap-Portfolio/pipes/pipes.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.navbar{
+    background-color: gray;
+}
+
+.row{
+    padding-top: 25px; 
+}
+
+
+
