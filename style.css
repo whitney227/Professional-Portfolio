@@ -1,5 +1,7 @@
-.container{
+body{
     background-image: url("Bootstrap-Portfolio/pipes.png");
+}
+.container{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
