@@ -1,6 +1,5 @@
-body{
-    background: url("Bootstrap-Portfolio/pipes.png");
-
+head {
+    background-image: url("Bootstrap-Portfolio/pipes.png");
 }
 
 
@@ -22,6 +21,4 @@ form{
     padding-left: 15%;
     padding-right: 15%;
 }
-
-
 
