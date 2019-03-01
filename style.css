@@ -17,11 +17,7 @@ a:hover {
 
 .row{
     padding-top: 25px; 
-}
-
-form{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-bottom: 25px;
 }
 
 .fixed-bottom{
