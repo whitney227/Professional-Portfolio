@@ -1,33 +1,82 @@
+@-ms-viewport{
+    width: device-width;
+  }
 
-a:hover {
-    color:white;
+body{
+    font-family: 'Libre Baskerville', serif;  
+    margin: 0;
 }
 
-
-.container{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.card{
+    width: 100%;
+    background: #cccccc;
+    padding: 0;
 }
-
-
-.navbar{
-    background-color: gray;
-    font-weight: bold;
-    color: #972985;
-}
-
 .row{
-    padding-top: 25px; 
-    padding-bottom: 25px;
+    margin-left: 20px;
+    
+}
+#my-name{
+    color:#972985;
+    font-size: 40px;
+    margin-top: 30px;
+}
+#job-title{
+    font-size: 30px;
 }
 
-.fixed-bottom{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #972985;
-    background-color: gray;
-    margin-top: 15%;
-    font-size: 30px;
-    font-weight: bold;
+#headshot{
+    border-radius: 8px;
+    padding: 0;  
+    width: 150px;
+    height: 165px;
 }
+#contact-button{
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.heading{
+    text-align: center;
+    margin-top: 15px;
+}
+.col-md-3{
+    text-align: center;
+}
+#menYou{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+    -webkit-filter: grayscale(1);  
+}
+#travelTrivia{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px; 
+    -webkit-filter: grayscale(1);  
+}
+#trainScheduler{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px; 
+    -webkit-filter: grayscale(1);  
+}
+#crystalCollector{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px; 
+    -webkit-filter: grayscale(1); 
+}
+.biography{
+    color: #972985;
+    margin: 10px 80px 5px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+
+
+
 
 
