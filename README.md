@@ -1,5 +1,6 @@
 # My Portfolio
 ### <https://whitney227.github.io/My-Portfolio/>
+![screenshot](/Images/Portfolio-image.png)
 
 # Description
 My porfolio is a showcase of the applications I have created as a student in the Georgia Tech Full Stack Bootcamp.  I have included my resume and how to contact me on LinkedIn and GitHub.  
