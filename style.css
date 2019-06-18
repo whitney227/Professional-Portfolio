@@ -1,79 +1,94 @@
 @-ms-viewport{
     width: device-width;
   }
-
-body{
-    font-family: 'Libre Baskerville', serif;  
-    margin: 0;
+  /* =========================================================================================== */
+  /* home page  */
+  /* =========================================================================================== */
+#body-home{
+    align-content: center;
 }
-
-.card{
-    width: 100%;
-    background: #cccccc;
+#welcome{
+    width: 95%;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 100;
+    font-family: 'Comfortaa', cursive;
+    margin: 30px;
+    margin-top: 45px;
     padding: 0;
+    background: none;
+
 }
-.row{
-    margin-left: 20px;
+.lead-text{
+    color:#972985;   
+}
+#headshot{
+    border-radius: 50%;
+    border: 2px solid gray;
+    padding: 0;  
+    width: 300px;
+    height: 300px;
+}
+/* =========================================================================================== */
+/* index page */
+/* =========================================================================================== */
+#index-body{
+    margin:0;
+    display:block;
+    letter-spacing:.01rem;
+    line-height: 1.75rem;
+    margin-bottom: 40px;
+    font-size:100%;
+}
+.nav-link{
+    color:gray;
+}
+.container{
+    max-width: 50em;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: 'Comfortaa', cursive;
+}
+.block{
+    display:block;
+}
+.p3{
+    padding:2rem;
+}
+/* CSS for each project */
+.mb2 {
+    margin-bottom: 1rem;
+}
+.views{
+    width:60%;
+    float:left;
     
 }
-#my-name{
-    color:#972985;
-    font-size: 40px;
-    margin-top: 30px;
-}
-#job-title{
-    font-size: 30px;
-}
-
-#headshot{
-    border-radius: 8px;
-    padding: 0;  
-    width: 150px;
-    height: 165px;
-}
-#contact-button{
-    margin-top: 10px;
-    /* margin-bottom: 50px; */
-}
-
-.heading{
-    text-align: center;
-    margin-top: 15px;
-}
-.col-md-3{
-    text-align: center;
-}
-#menYou{
-    border-radius: 50%;
+#pics{
     width: 300px;
     height: 200px;
-    -webkit-filter: grayscale(1);  
+    -webkit-filter: grayscale(1);
 }
-#travelTrivia{
-    border-radius: 50%;
-    width: 300px;
-    height: 200px; 
-    -webkit-filter: grayscale(1);  
+.content{
+    width:40%;
+    float:left;
+    font-family: 'Comfortaa', cursive;
+    font-size: x-large;
+    margin-top: 10px;
 }
-#trainScheduler{
-    border-radius: 50%;
-    width: 300px;
-    height: 200px; 
-    -webkit-filter: grayscale(1);  
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
 }
-#crystalCollector{
-    border-radius: 50%;
-    width: 300px;
-    height: 200px; 
-    -webkit-filter: grayscale(1); 
-}
+/* =========================================================================================== */
 .biography{
     color: #972985;
     margin: 10px 80px 5px;
     text-align: justify;
     font-size: 20px;
     
-}
+} 
 
 
 
