@@ -7,5 +7,5 @@ My porfolio is a showcase of the applications I have created as a student in the
  
 
  # Purpose
- This portfolio is to highlight the skills I've learned learned in the Bootcamp course like HTML, CSS, JavaScript, JQuery, API Calls, AJAX requests, Firebase, Express, NodeJS, and Sequelize.  A complete showcase of all my work can be found on my GitHub portfolio.  
+ This portfolio is to highlight the skills I've learned learned in the Bootcamp course like HTML, CSS,JavaScript, JQuery, API Calls, AJAX requests, Firebase, Express, NodeJS, React, MongoDB, and Sequelize.  A complete showcase of all my work can be found on my GitHub portfolio.  
 
