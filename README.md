@@ -1,5 +1,5 @@
 # My Portfolio
-### <https://whitney227.github.io/My-Portfolio/>
+### 
 
 
 # Description
