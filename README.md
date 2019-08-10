@@ -1,5 +1,5 @@
 # My Portfolio
-### https://whitney227.github.io/Professional-Portfolio/#httpswhitney227githubioprofessional-portfolio
+https://whitney227.github.io/Professional-Portfolio/
 
 
 # Description
