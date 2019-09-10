@@ -80,6 +80,9 @@
 #intro{
     background-image: url("./Images/2082882.jpg");
 }
+.modal-header{
+    background-color: black !important;
+}
 .biography{
     padding-top: 10px;
 }
