@@ -77,17 +77,18 @@
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
+#intro{
+    background-image: url("./Images/2082882.jpg");
+    border-radius: 20px;
+}
+.modal-header{
+    background-color: black !important;
+}
 .biography{
     padding-top: 10px;
 }
-.technical-skills{
-    width: 80%;
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
-}
-.table{
-    text-align: left;
-    font-family: 'Poppins', sans-serif;   
+.card-text{
+    font-size: 18px !important;
 }
 #features-title{
     color:#b400b4;
