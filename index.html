@@ -320,7 +320,7 @@
                     <i class="fab fa-github fa-lg white-text fa-2x"></i>
                 </a>
                 <!--Email-->
-                <a class="pin-ic" href="mailto:whitneylcrawford@gmail.com" target="_blank">
+                <a class="pin-ic" data-toggle="modal" data-target="#modalContact">
                     <i class="far fa-envelope fa-lg white-text fa-2x"></i>
                 </a>
               </div>
@@ -341,6 +341,43 @@
         
         </footer>
         <!-- Footer -->
+
+        <!--Modal: Contact with Avatar Form-->
+        <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+        <div class="modal-dialog cascading-modal modal-avatar" role="document">
+            <!--Content-->
+            <div class="modal-content">
+
+                <!--Header-->
+                <div class="modal-header">
+                <img src="./Images/Profile-pic.jpg" alt="avatar" class="rounded-circle img-responsive">
+                </div>
+                <!--Body-->
+                <div class="modal-body text-center mb-1">
+
+                <h3 class="mt-1 mb-2" style="color: #b400b4">Whitney Crawford</h3>
+
+                <div class="md-form ml-0 mr-0" style="font-size: 14px">
+                    <i class="fas fa-mobile-alt fa-2x"> 843-830-2110</i>
+                    <br>
+                    <br>
+                    <i class="far fa-envelope fa-2x"><strong> whitneylcrawford@gmail.com</strong></i>    
+                </div>
+
+                <div class="text-center mt-4">
+                    <a type="button" class="btn btn-outline-black waves-effect" data-dismiss="modal">Close</a>
+                </div>
+                </div>
+
+            </div>
+            <!--/.Content-->
+        </div>
+        </div>
+        <!-- ./Modal: Contact with Avatar Form-->
+
+        
+      
   
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
