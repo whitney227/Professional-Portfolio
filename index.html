@@ -23,9 +23,9 @@
         <nav class="navbar bg-dark">
 
         <!-- Navbar brand -->
-        <a class="navbar-text" href="index.html">
+        <p class="navbar-text">
             <i class="fas fa-laptop-code"></i>
-            Portfolio</a>
+            Portfolio</p>
    
         <!-- Collapse button -->
         <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
@@ -117,7 +117,9 @@
 
                             <!--Footer-->
                             <div class="modal-footer justify-content-center">
-                            <a type="button" class="btn btn-outline-black">Contact Me <i class="fas fa-envelope btn-outline-black"></i></a>
+                            <!-- <a type="button" class="btn btn-outline-black">Contact Me <i class="fas fa-envelope btn-outline-black"></i></a> -->
+                            <a type="button" class="btn btn-outline-black" data-toggle="popover" data-pacement="bottom" title="Email"
+                                data-content="whitneylcrawford@gmail.com">Contact Me <i class="fas fa-envelope btn-outline-black"></i></a>
                             <a type="button" class="btn btn-outline-black waves-effect" data-dismiss="modal">Close</a>
                             </div>
                         </div>
@@ -133,7 +135,7 @@
                     <div class="card mb-4">
                 
                         <!--Card image-->
-                        <div class="view overlay">
+                        <div class="view zoom">
                             <img class="card-img-top" src="./Images/menyou-small.png" alt="Card image cap">
             
                         </div>
@@ -158,7 +160,7 @@
                     <div class="card mb-4">
                 
                         <!--Card image-->
-                        <div class="view overlay">
+                        <div class="view zoom">
                             <img class="card-img-top" src="Images/scout&cellar.png" alt="Card image cap">
             
                         </div>
@@ -183,7 +185,7 @@
                     <div class="card mb-4">
                 
                         <!--Card image-->
-                        <div class="view overlay">
+                        <div class="view zoom">
                             <img class="card-img-top" src="./Images/blue-heron-silks.png" alt="Card image cap">
             
                         </div>
@@ -215,7 +217,7 @@
                 <div class="card mb-4">
                             
                         <!--Card image-->
-                        <div class="view overlay">
+                        <div class="view zoom">
                             <img class="card-img-top" src="./Images/crystal-collector-small.png" alt="Card image cap">
 
                         </div>
@@ -240,7 +242,7 @@
                 <div class="card mb-4">
                             
                     <!--Card image-->
-                    <div class="view overlay">
+                    <div class="view zoom">
                         <img class="card-img-top" src="Images/patter-dating-tool.png" alt="Card image cap">
 
                     </div>
@@ -265,7 +267,7 @@
                 <div class="card mb-4">
                             
                     <!--Card image-->
-                    <div class="view overlay">
+                    <div class="view zoom">
                         <img class="card-img-top" src="Images/liri.png" alt="Card image cap">
 
                     </div>
@@ -343,7 +345,8 @@
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script> -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
@@ -357,6 +360,11 @@
                 $('.animated-icon1').toggleClass('open');
             });
         }) 
+
+        // popovers Initialization
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        });
 
     </script>
 </body>

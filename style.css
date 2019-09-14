@@ -84,6 +84,11 @@ section{
 .modal-header{
     background-color: black !important;
 }
+
+.modal-dialog.modal-notify .heading {
+    font-size: 2rem;
+}
+
 .biography{
     padding-top: 10px;
 }
